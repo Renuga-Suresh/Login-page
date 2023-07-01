@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background-color: rgb(75, 72, 72);
+  height: 60px;
+  overflow: hidden;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: white;
+}
+
+h2 {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+  position: relative;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  overflow-x: hidden;
+}
+
+a {
+  color: #777777;
+  text-decoration: none;
+}
+
+button {
+  padding: 10px;
+  color: #777777;
+  font-family: sans-serif, "Raleway";
+}
+
+.font-styling {
+  font-family: sans-serif, "Raleway";
+  color: #777777;
+
+  font-size: small;
+}
+
+.font-styles {
+  font-family: sans-serif, "Raleway";
+  font-size: xx-large;
+}
+
+.wel {
+  font-family: sans-serif, "Raleway";
+  font-size: large;
+  color: #428bca;
+}
+
+.new {
+  font-family: "Poppins", sans-serif;
+  font-size: small;
+
+  color: #428bca;
+}
+
+.input-box {
+  border-radius: 4px;
+}
